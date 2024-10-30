@@ -24,7 +24,7 @@ cd /srv/pthub
 wget https://raw.githubusercontent.com/abstract-liu/pthub/main/config/docker-compose.yaml -O docker-compose.yaml
 wget https://raw.githubusercontent.com/abstract-liu/pthub/main/config/config.toml -O config.toml
 vim config.toml # fill in env variables
-docker-compose up -d
+docker compose up -d
 ```
 
 ### Update
