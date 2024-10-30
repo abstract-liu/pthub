@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    pthub:
+        restart: always
+        container_name: pthub
+        volumes:
+            - '/srv/pthub:/config'
+        image: 'abstractliu/pthub:latest'

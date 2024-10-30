@@ -1,0 +1,12 @@
+[mteam]
+apiKey = "your api key here"
+
+[qbittorrent]
+username = "admin"
+password = "adminadmin"
+defaultSavePath = "/downloads"
+baseURL = "your qbittorrent endpoint here"
+
+[telegram]
+token = "bot api"
+managerUserIds = [1965779883]
