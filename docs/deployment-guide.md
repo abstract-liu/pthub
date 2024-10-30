@@ -19,8 +19,8 @@
 ### Deploy
 
 ```sh
-mkdir /srv/config 
-cd /srv/config
+mkdir /srv/pthub
+cd /srv/pthub
 wget https://raw.githubusercontent.com/abstract-liu/pthub/main/config/docker-compose.yaml -O docker-compose.yaml
 wget https://raw.githubusercontent.com/abstract-liu/pthub/main/config/config.toml -O config.toml
 vim config.toml # fill in env variables
